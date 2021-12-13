@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :room_managers
+  resources :books
 
   get 'users/show'
   devise_for :users
