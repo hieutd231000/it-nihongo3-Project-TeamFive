@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :rooms
   resources :room_managers
 
   get 'users/show'
